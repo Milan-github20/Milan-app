@@ -16,6 +16,7 @@ const Home = () => {
         <Route exact path="/">
           <div className={styles.MainHome}>
             <h1>Fakultet informacionih tehnologija</h1>
+            <h2>Please select your year</h2>
           </div>
         </Route>
 
