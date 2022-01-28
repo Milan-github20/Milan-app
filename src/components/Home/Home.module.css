@@ -1,6 +1,11 @@
 .MainHome {
   background-repeat: no-repeat;
   display: flex;
+  flex-direction: column;
+}
+
+.MainHome h2 {
+  text-align: center;
 }
 
 body {
