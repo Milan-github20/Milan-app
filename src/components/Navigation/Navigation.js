@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import styles from "./Navigation.module.css";
 
 const Navigation = () => {
   const links = [
@@ -30,11 +31,11 @@ const Navigation = () => {
     },
   ];
   return (
-    <nav>
+    <nav className={styles.navbar}>
       <ul>
         {links.map((link) => {
           return (
-            <li key={link.id}>
+            <li key={link.id} className={styles.underline}>
               <NavLink to={link.path} exact>
                 {link.text}
               </NavLink>
