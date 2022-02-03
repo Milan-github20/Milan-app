@@ -1,0 +1,143 @@
+.inputField {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.icons {
+  color: white;
+  margin-top: -18px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  width: 96%;
+}
+
+body {
+  height: 639px;
+}
+
+.inputEdit {
+  justify-content: space-around;
+}
+
+.date {
+  width: 11%;
+  text-align: center;
+  background-color: whitesmoke;
+  border-radius: 2px solid white;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  color: black;
+  font-size: 16px;
+  padding: 5px;
+  font-family: "Lucida Sans";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subject {
+  width: 11%;
+  text-align: center;
+  background-color: whitesmoke;
+  border-radius: 2px solid white;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  color: black;
+  font-size: 16px;
+  padding: 5px;
+  font-family: "Lucida Sans";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.professor {
+  width: 11%;
+  text-align: center;
+  background-color: whitesmoke;
+  border-radius: 2px solid white;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  color: black;
+  font-size: 16px;
+  padding: 5px;
+  font-family: "Lucida Sans";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  width: 11%;
+  text-align: center;
+  background-color: whitesmoke;
+  border-radius: 2px solid white;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  color: black;
+  font-size: 16px;
+  padding: 5px;
+  font-family: "Lucida Sans";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index {
+  width: 11%;
+  background-color: whitesmoke;
+  border-radius: 2px solid white;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  color: black;
+  font-size: 16px;
+  text-align: center;
+  padding: 5px;
+  font-family: "Lucida Sans";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.rating {
+  width: 11%;
+  text-align: center;
+  background-color: whitesmoke;
+  border-radius: 2px solid red;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  color: black;
+  font-size: 16px;
+  padding: 5px;
+  font-family: "Lucida Sans";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons {
+  font-size: 25px;
+  display: flex;
+  align-items: flex-end;
+  height: 8px;
+  margin-left: 10px;
+  cursor: pointer;
+  margin-right: 210px;
+}
+
+.deleteField {
+  margin-right: 5px;
+}
+
+.editField {
+  height: 27px;
+}

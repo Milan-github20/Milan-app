@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./Home.module.css";
 import Navigation from "../Navigation/Navigation";
 import { Route, Switch } from "react-router-dom";
-
 import First from "../../pages/First/First";
 import Second from "../../pages/Second/Second";
 import Third from "../../pages/Third/Third";
@@ -15,8 +14,8 @@ const Home = () => {
       <Switch>
         <Route exact path="/">
           <div className={styles.MainHome}>
-            <h1>Fakultet informacionih tehnologija</h1>
-            <h2>Please select your year</h2>
+            <h1>Faculty of Information Technology</h1>
+            <h2>Programming and software engineering</h2>
           </div>
         </Route>
 

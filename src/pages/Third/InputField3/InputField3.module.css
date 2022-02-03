@@ -1,0 +1,46 @@
+.firstForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.firstInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12%;
+  padding: 5px;
+  background-color: initial;
+  border-radius: 2px solid white;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+
+.firstInput:hover {
+  background-color: white;
+  border: 2px solid white;
+  color: black;
+}
+
+.firstButton {
+  background-color: initial;
+  border-radius: 8px;
+  padding: 7px 25px;
+  border: 2px solid white;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.firstButton:hover {
+  background-color: white;
+  border: 2px solid white;
+  color: black;
+}

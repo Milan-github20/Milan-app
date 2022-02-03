@@ -1,9 +1,12 @@
 import React from "react";
+import InputList3 from "./InputList3/InputList3";
+import styles from "./Third.module.css";
 
 const Third = () => {
   return (
-    <div>
-      <h4>Hello from third year!</h4>
+    <div className={styles.h1}>
+      <h1>THIRD YEAR</h1>
+      <InputList3 />
     </div>
   );
 };
